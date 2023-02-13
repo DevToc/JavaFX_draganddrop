@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="361.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1"  fx:controller="demo.controller.MainController" >
+   <children>
+      <VBox layoutX="81.0" layoutY="91.0" prefHeight="200.0" prefWidth="138.0">
+         <children>
+            <Label fx:id="testing1" scaleX="0.5" scaleY="0.5" text="testing1">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="testing2" scaleX="0.5" scaleY="0.5" text="testing2">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="testing3" scaleX="0.5" scaleY="0.5" text="testing3">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="testing4" scaleX="0.5" scaleY="0.5" text="testing4">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="testing5" scaleX="0.5" scaleY="0.5" text="testing5">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox layoutX="319.0" layoutY="95.0" prefHeight="265.0" prefWidth="247.0">
+         <children>
+            <TextField fx:id="testbox1" scaleX="0.5" scaleY="0.5" text="testbox1" >
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="testbox2" scaleX="0.5" scaleY="0.5" text="textbox2">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="testbox3" scaleX="0.5" scaleY="0.5" text="textbox3">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="testbox4" scaleX="0.5" scaleY="0.5" text="textbox4">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="testbox5" scaleX="0.5" scaleY="0.5" text="textbox5">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </TextField>
+         </children>
+      </VBox>
+      <HBox layoutX="50.0" prefHeight="100.0" prefWidth="542.0" />
+      <Label layoutX="112.0" layoutY="322.0" text="Testing Drag Drop From Left To Right">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
+
